@@ -101,18 +101,18 @@ dependencies:
 
 ### Light Mode
 <div align="center">
-  <img src="https://drive.google.com/file/d/1621Jc-2X-T4nw_EYjz40vRLkw38SPHil/view?usp=sharing" alt="Light Mode" width="300"/>
+  <img src="https://cdn.discordapp.com/attachments/1099859505891790959/1441615932865904660/IMG-20251122-WA0004.jpg?ex=692270f6&is=69211f76&hm=e2dcb20c41368dcebd5d8b759970a410914f440fd359d0b55d59b1ba82124ecd&" alt="Light Mode" width="300"/>
 </div>
 
 ### Dark Mode
 <div align="center">
-  <img src="https://drive.google.com/file/d/1Se2MJxB0K-JmICaYqbUQip1rSZEApgxi/view?usp=sharing" alt="Dark Mode" width="300"/>
+  <img src="https://cdn.discordapp.com/attachments/1099859505891790959/1441616022703702016/IMG-20251122-WA0001.jpg?ex=6922710b&is=69211f8b&hm=dde6108a916b77d86a3af39a317d35f24e089b6387c878e7b17b5c26f85ee51e&" alt="Dark Mode" width="300"/>
 </div>
 
 ### Side by Side Comparison
 <div align="center">
-  <img src="https://drive.google.com/file/d/1621Jc-2X-T4nw_EYjz40vRLkw38SPHil/view?usp=sharing" alt="Light" width="280"/>
-  <img src="https://drive.google.com/file/d/1Se2MJxB0K-JmICaYqbUQip1rSZEApgxi/view?usp=sharing" alt="Dark" width="280"/>
+  <img src="https://cdn.discordapp.com/attachments/1099859505891790959/1441615932865904660/IMG-20251122-WA0004.jpg?ex=692270f6&is=69211f76&hm=e2dcb20c41368dcebd5d8b759970a410914f440fd359d0b55d59b1ba82124ecd&" alt="Light" width="280"/>
+  <img src="https://cdn.discordapp.com/attachments/1099859505891790959/1441616022703702016/IMG-20251122-WA0001.jpg?ex=6922710b&is=69211f8b&hm=dde6108a916b77d86a3af39a317d35f24e089b6387c878e7b17b5c26f85ee51e&" alt="Dark" width="280"/>
 </div>
 
 ## 🎨 Komponen Custom Widget
