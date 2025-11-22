@@ -186,18 +186,6 @@ enum StatusMahasiswa {
 }
 ```
 
-## 🐛 Troubleshooting
-
-### Foto tidak muncul?
-- Pastikan folder `assets/images/` sudah dibuat
-- Pastikan `pubspec.yaml` sudah include assets
-- Run `flutter pub get` setelah menambahkan assets
-- Pastikan nama file foto sesuai: `profile.jpg`
-
-
-### Icon Font Awesome tidak muncul?
-- Pastikan `font_awesome_flutter` sudah terinstall
-- Import dengan benar: `import 'package:font_awesome_flutter/font_awesome_flutter.dart';`
 
 ## 📚 Referensi
 
