@@ -100,14 +100,20 @@ dependencies:
 ## 📸 Screenshot
 
 ### Light Mode
-- Tampilan terang dengan tema biru yang elegan
-- Background putih bersih
-- Card dengan shadow halus
+<div align="center">
+  <img src="https://drive.google.com/file/d/1621Jc-2X-T4nw_EYjz40vRLkw38SPHil/view?usp=sharing" alt="Light Mode" width="300"/>
+</div>
 
 ### Dark Mode
-- Tampilan gelap dengan background #121212
-- Card dengan warna #1E1E1E
-- Kontras yang nyaman di mata
+<div align="center">
+  <img src="https://drive.google.com/file/d/1Se2MJxB0K-JmICaYqbUQip1rSZEApgxi/view?usp=sharing" alt="Dark Mode" width="300"/>
+</div>
+
+### Side by Side Comparison
+<div align="center">
+  <img src="https://drive.google.com/file/d/1621Jc-2X-T4nw_EYjz40vRLkw38SPHil/view?usp=sharing" alt="Light" width="280"/>
+  <img src="https://drive.google.com/file/d/1Se2MJxB0K-JmICaYqbUQip1rSZEApgxi/view?usp=sharing" alt="Dark" width="280"/>
+</div>
 
 ## 🎨 Komponen Custom Widget
 
