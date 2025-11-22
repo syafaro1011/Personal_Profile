@@ -22,7 +22,7 @@ class _ProfilPageState extends State<ProfilPage> {
     jurusan: 'Teknik Informatika',
     email: 'syaifulfathurrozaq@gmail.com',
     telepon: '+62 888-6056-098',
-    foto: 'assets/images/profile.jpg',
+    foto: 'images/profile.jpg',
     status: StatusMahasiswa.aktif,
     hobi: [
       'Coding',
@@ -31,12 +31,14 @@ class _ProfilPageState extends State<ProfilPage> {
       'Musik',
     ],
     skill: [
-      Skill(nama: 'Flutter', level: 4, icon: '📱'),
-      Skill(nama: 'Dart', level: 4, icon: '🎯'),
-      Skill(nama: 'Firebase', level: 3, icon: '🔥'),
-      Skill(nama: 'UI/UX', level: 3, icon: '🎨'),
+      Skill(nama: 'Java', level: 3, icon: '☕'),
+      Skill(nama: 'Flutter', level: 3, icon: '📱'),
+      Skill(nama: 'Dart', level: 3, icon: '🎯'),
+      Skill(nama: 'Python', level: 3, icon: '🐍'),
+      Skill(nama: 'UI/UX', level: 2, icon: '🎨'),
       Skill(nama: 'Git', level: 4, icon: '📦'),
-      Skill(nama: 'API', level: 3, icon: '🌐'),
+      Skill(nama: 'IoT', level: 4, icon: '💡'),
+      Skill(nama: 'AI', level: 2, icon: '🤖'),
     ],
   );
 
@@ -46,7 +48,6 @@ class _ProfilPageState extends State<ProfilPage> {
     });
   }
 
-  // Fungsi untuk mendapatkan theme data sesuai mode
   ThemeData getTheme() {
     if (isDarkMode) {
       return ThemeData(
@@ -136,6 +137,7 @@ class _ProfilPageState extends State<ProfilPage> {
             fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
+          textAlign: TextAlign.left,
         ),
         background: Stack(
           fit: StackFit.expand,
@@ -210,11 +212,27 @@ class _ProfilPageState extends State<ProfilPage> {
                   backgroundColor: isDarkMode 
                       ? const Color(0xFF1E1E1E) 
                       : Colors.white,
-                  child: Icon(
-                    Icons.person,
-                    size: 60,
-                    color: isDarkMode ? Colors.white54 : Colors.grey,
-                  ),
+                  child: myProfile.foto.isEmpty
+                      ? Icon(
+                          Icons.person,
+                          size: 60,
+                          color: isDarkMode ? Colors.white54 : Colors.grey,
+                        )
+                      : ClipOval(
+                          child: Image.asset(
+                            myProfile.foto,
+                            fit: BoxFit.cover,
+                            width: 120,
+                            height: 120,
+                            errorBuilder: (context, error, stackTrace) {
+                              return Icon(
+                                Icons.person,
+                                size: 60,
+                                color: isDarkMode ? Colors.white54 : Colors.grey,
+                              );
+                            },
+                          ),
+                        ),
                 ),
               ),
               Positioned(
