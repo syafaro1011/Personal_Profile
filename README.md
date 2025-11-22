@@ -96,35 +96,6 @@ dependencies:
 - [x] GridView.builder untuk grid skill
 - [x] Custom widget untuk menghindari duplikasi kode
 
-## 🚀 Cara Menjalankan
-
-### Prasyarat
-- Flutter SDK (>=3.0.0)
-- Dart SDK
-- Android Studio / VS Code
-- Emulator atau device fisik
-
-### Langkah Instalasi
-
-1. **Clone atau Download Project**
-   ```bash
-   cd student_profile_app
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Tambahkan Foto Profile (Opsional)**
-   - Buat folder `assets/images/` di root project
-   - Tambahkan foto dengan nama `profile.jpg`
-   - Atau biarkan kosong untuk menggunakan icon default
-
-4. **Jalankan Aplikasi**
-   ```bash
-   flutter run
-   ```
 
 ## 📸 Screenshot
 
@@ -168,14 +139,6 @@ HobbyItem(
 )
 ```
 
-## 💡 Fitur Tambahan (Bonus)
-
-- ✨ **Smooth Theme Toggle** - Transisi smooth saat ganti tema
-- 🎨 **Gradient Background** - AppBar dengan gradient effect
-- 🏷️ **Badge Counter** - Counter jumlah hobi dan skill
-- 📱 **Custom AppBar** - SliverAppBar dengan expanded height
-- 🔄 **Smart Icon Detection** - Icon hobi otomatis berdasarkan nama
-- ⚡ **Error Handling** - Fallback untuk foto yang tidak ada
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -223,12 +186,6 @@ enum StatusMahasiswa {
 - Run `flutter pub get` setelah menambahkan assets
 - Pastikan nama file foto sesuai: `profile.jpg`
 
-### Error saat build?
-```bash
-flutter clean
-flutter pub get
-flutter run
-```
 
 ### Icon Font Awesome tidak muncul?
 - Pastikan `font_awesome_flutter` sudah terinstall
@@ -241,9 +198,6 @@ flutter run
 - [Google Fonts Package](https://pub.dev/packages/google_fonts)
 - [Font Awesome Flutter](https://pub.dev/packages/font_awesome_flutter)
 
-## 📄 Lisensi
-
-Project ini dibuat untuk keperluan akademik (UTS Pemrograman Mobile 2).
 
 ---
 
