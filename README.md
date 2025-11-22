@@ -115,6 +115,8 @@ dependencies:
   <img src="https://cdn.discordapp.com/attachments/1099859505891790959/1441616022703702016/IMG-20251122-WA0001.jpg?ex=6922710b&is=69211f8b&hm=dde6108a916b77d86a3af39a317d35f24e089b6387c878e7b17b5c26f85ee51e&" alt="Dark" width="280"/>
 </div>
 
+
+
 ## 🎨 Komponen Custom Widget
 
 ### 1. InfoCard
